@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephonne=no">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Nanumsqure font -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</head>
+<body>
+    <section class="community head-fix">
+        <div class="row">
+            <a href="javascript:void(0)"><i class="material-icons">arrow_back</i></a>
+            <div class="col sign-header">채팅</div>
+        </div>
+
+        <ul class="community_tab tabs chat-commu">
+            <li class="tab col"><a class="active"  href="#chataroom">내 채팅방<br> 목록</a></li>
+            <div class="chat-alarm">4</div>
+            <li class="tab col"><a href="#goodpeople">나를 좋아요<br> 한 사람</a></li>
+            <div class="chat-alarm plus-alarm">99+</div>
+            <li class="tab col"><a href="#myprofile">내 프로필로<br> 이동</a></li>
+        </ul>
+
+        
+        <div class="container">
+            
+
+            <div id="chataroom">
+            
+                <div class="chat">
+                    <div class="chat-wrapp">
+                        <div class="chat-main">
+                        <div class="chat_wrapper flex-center flex">
+                            <div class="chat-img"></div>
+                            <div class="chat-titles">
+                                <div class="chat-title">
+                                    윤아_S2
+                                </div>
+                                <div class="content-chat">
+                                    오늘은 머해 오빠?
+                                </div>
+                            </div>
+                        </div>
+                            <div class="post-down">
+                            <div class="post-time">오전 10:18</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+                    <div class="chat-wrapp">
+                        <div class="chat-main">
+                            <div class="chat_wrapper flex-center flex">
+                                <div class="chat-img"></div>
+                                <div class="chat-titles">
+                                    <div class="chat-title">
+                                        윤아_S2
+                                    </div>
+                                    <div class="content-chat">
+                                        오늘은 머해 오빠?
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="post-down">
+                                <div class="post-time">오전 10:18</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+
+                    <div class="chat-wrapp flex flex-between">
+                        <div class="chat-main flex-center flex">
+                            <div class="chat-img"></div>
+                            <div class="chat-titles">
+                                <div class="chat-title">
+                                    윤아_S2
+                                </div>
+                                <div class="content-chat">
+                                    오늘은 머해 오빠?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swipe-delete" data-bs-toggle="modal" href="#exampleModalToggle19">
+                            <img src="./icons/icon_chat_delete.png">
+                        </div>
+                    </div>
+
+
+
+                    <div class="chat-wrapp">
+                        <div class="chat-main">
+                            <div class="chat_wrapper flex-center flex">
+                                <div class="chat-img"></div>
+                                <div class="chat-titles">
+                                    <div class="chat-title">
+                                        윤아_S2
+                                    </div>
+                                    <div class="content-chat">
+                                        오늘은 머해 오빠?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-down">
+                                <div class="post-time">오전 10:18</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+
+            <div id="goodpeople">
+                <div class="goodpeople" style="display:none">
+                    <p>프로필을 업데이트하면 나에게 좋아요를
+                        <br>하는 사람이 더 늘어날 수 있어요.</p>
+                </div>
+
+                <div class="like_switch">
+                    <p>슈퍼라이크만 보기</p>
+                    <div class="switch">
+                        <label>
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="me-like-people">
+                    <div class="me-like-content flex">
+                        <div class="me-like-content-wrap">
+                            <div class="me-like-row bgc-img">
+                                <div class="name_bottom flex">
+                                    <div class="name_bottom_wrap">
+                                        <div class="me-like-name">알팍영배<span>(탑/서울)</span></div>
+                                        <div class="like-time">남은 시간 23시간</div>
+                                    </div>
+                                    <div class="super_like_chat">
+                                        <div class="super_like_circle">
+                                            <div class="super_like_circle line">슈퍼<br>라이크</div>
+                                        </div>
+                                        <img src="./imgs/icon_heart.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="me-like-people_btnContain flex">
+                                <div class="me-bad-people-btn">싫어요</div>
+                                <div class="me-like-people-btn">라이크</div>
+                            </div>
+                        </div>
+                        <div class="me-like-content-wrap">
+                            <div class="me-like-row bgc-img">
+                                <div class="name_bottom">
+                                    <div class="me-like-name">알팍영배<span>(탑/서울)</span></div>
+                                    <div class="like-time">남은 시간 23시간</div>
+                                </div>
+                            </div>
+                            <div class="me-like-people_btnContain flex">
+                                <div class="me-bad-people-btn">싫어요</div>
+                                <div class="me-like-people-btn">라이크</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="me-like-content flex">
+                        <div class="me-like-content-wrap">
+                            <div class="me-like-row bgc-img">
+                                <div class="name_bottom">
+                                    <div class="me-like-name">알팍영배<span>(탑/서울)</span></div>
+                                    <div class="like-time">남은 시간 23시간</div>
+                                </div>
+                            </div>
+                            <div class="me-like-people_btnContain flex">
+                                <div class="me-bad-people-btn">싫어요</div>
+                                <div class="me-like-people-btn">라이크</div>
+                            </div>
+                        </div>
+                        <div class="me-like-content-wrap">
+                            <div class="me-like-row bgc-img">
+                                <div class="name_bottom flex">
+                                    <div class="name_bottom_wrap">
+                                        <div class="me-like-name">알팍영배<span>(탑/서울)</span></div>
+                                        <div class="like-time">남은 시간 23시간</div>
+                                    </div>
+                                    <div class="super_like_chat">
+                                        <div class="super_like_circle">
+                                            <div class="super_like_circle line">슈퍼<br>라이크</div>
+                                        </div>
+                                        <img src="./imgs/icon_heart.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="me-like-people_btnContain flex">
+                                <div class="me-bad-people-btn">싫어요</div>
+                                <div class="me-like-people-btn">라이크</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myprofile">
+
+            </div>
+        </div>
+
+        <!-- <div class="bottom_bgc"></div> -->
+
+        <div class="bottom_navbar">
+            <div class="bottom_navbar-bg">
+                <img src="./imgs/bottom.png">
+            </div>                  
+            <div class="item-contain flex">
+                <a class="item" href="javascript:void(0)">
+                    <img src="./icons/dock_icon_home.png">
+                </a>
+                <a class="item padding-right" href="javascript:void(0)">
+                    <img src="./icons/dock_icon_chat.png">
+                </a>
+                <a class="item padding-left" href="javascript:void(0)">
+                    <img src="./icons/dock_icon_swipe.png">
+                </a>
+                <a class="item" href="javascript:void(0)">
+                    <img src="./icons/dock_icon_profile.png">
+                </a>
+            </div>
+            <a class="middle-btn btn-floating">
+                <img src="./icons/dock_icon_cafe.png">
+            </a>
+        </div>
+    </section>
+
+        <!-- 나가기 modal -->
+        <div class="modal fade" id="exampleModalToggle19"  tabindex="-1" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content comment-modal modal-padding">
+                <button type="button" class="btn-close modal-close-btn" data-bs-dismiss="modal" aria-label="Close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <div class="modal-body">
+                    <div class="delete-alarm">
+                        <h2>채팅방을 나가면 채팅목록
+                        <br>및 대화내용이 삭제되고 
+                        <br>복구할 수 없습니다
+                        <br>
+                        <br>채팅방에서 나가시겠습니까?
+                    </h2>
+                    </div>
+                </div>
+                <div class="modal-footer modal-ok-footer flex">
+                    <div class="modal-ok-btn flex" data-bs-toggle="modal">
+                        <img src="./icons/icon_pop_cancle.png">
+                        <div class="ok-title">취소하기</div>
+                    </div>
+                    <div class="modal-ok-btn flex" data-bs-toggle="modal">
+                        <img src="./icons/icon_chat_out.png">
+                        <div class="ok-title">나가기</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <script>
+
+        $(document).ready(function(){
+            $('.tabs').tabs();
+        });
+        </script>
+
+</body>
+</html>
